@@ -1,0 +1,179 @@
+Confocal:
+  xpos: !!python/object/apply:numpy.core.multiarray.scalar
+  - !!python/object/apply:numpy.dtype
+    args:
+    - f8
+    - 0
+    - 1
+    state: !!python/tuple
+    - 3
+    - <
+    - null
+    - null
+    - null
+    - -1
+    - -1
+    - 0
+  - !!binary |
+    2/l+arx0EcA=
+  ypos: !!python/object/apply:numpy.core.multiarray.scalar
+  - !!python/object/apply:numpy.dtype
+    args:
+    - f8
+    - 0
+    - 1
+    state: !!python/tuple
+    - 3
+    - <
+    - null
+    - null
+    - null
+    - -1
+    - -1
+    - 0
+  - !!binary |
+    I9v5fmq8CsA=
+  zpos: !!python/object/apply:numpy.core.multiarray.scalar
+  - !!python/object/apply:numpy.dtype
+    args:
+    - f8
+    - 0
+    - 1
+    state: !!python/tuple
+    - 3
+    - <
+    - null
+    - null
+    - null
+    - -1
+    - -1
+    - 0
+  - !!binary |
+    kxgEVg4tFkA=
+Instrument:
+  mw1freq: 1976194230.0
+  mw1pow: 7.9
+  mw2freq: 893806000.0
+  mw2pow: 6.0
+Manual:
+  Bphi: 184.5
+  Br: 0.18
+  Btheta: 3750.0
+  stage_x: 30.95
+  stage_y: 26.62
+Pulse:
+  deerpulsewidth: !!python/object/apply:numpy.core.multiarray.scalar
+  - !!python/object/apply:numpy.dtype
+    args:
+    - f8
+    - 0
+    - 1
+    state: !!python/tuple
+    - 3
+    - <
+    - null
+    - null
+    - null
+    - -1
+    - -1
+    - 0
+  - !!binary |
+    Ooww4o55ZT4=
+  dt: !!python/object/apply:numpy.core.multiarray.scalar
+  - !!python/object/apply:numpy.dtype
+    args:
+    - f8
+    - 0
+    - 1
+    state: !!python/tuple
+    - 3
+    - <
+    - null
+    - null
+    - null
+    - -1
+    - -1
+    - 0
+  - !!binary |
+    8GjjiLX41L4=
+  inv: 0
+  pulsewidth_pi: 5.2e-08
+  pulsewidth_pi2: 2.4e-08
+  pulsewidth_pi32: 7.8e-08
+  reps: 1000000.0
+  tau: !!python/object/apply:numpy.core.multiarray.scalar
+  - !!python/object/apply:numpy.dtype
+    args:
+    - f8
+    - 0
+    - 1
+    state: !!python/tuple
+    - 3
+    - <
+    - null
+    - null
+    - null
+    - -1
+    - -1
+    - 0
+  - !!binary |
+    VOQQcXMq2T4=
+Sweep:
+  chxbx_2desr: true
+  var1_delay: 0.0
+  var1_name: dt
+  var1_numdivs: 25
+  var1_start: -5.0
+  var1_start_unit: u
+  var1_stop: 5.0
+  var1_stop_unit: u
+  var2_delay: 0.0
+  var2_name: itr
+  var2_numdivs: 40
+  var2_start: 0.0
+  var2_start_unit: '-'
+  var2_stop: 1.0
+  var2_stop_unit: '-'
+sweep_var:
+  deerpulsewidth:
+    delay: 0.1
+    numdivs: 20
+    start: 0.0
+    start_unit: n
+    stop: 200.0
+    stop_unit: n
+  dt:
+    delay: 0.0
+    numdivs: 25
+    start: -5.0
+    start_unit: u
+    stop: 5.0
+    stop_unit: u
+  itr:
+    delay: 0.0
+    numdivs: 40
+    start: 0.0
+    start_unit: '-'
+    stop: 1.0
+    stop_unit: '-'
+  mw2freq:
+    delay: 1.0
+    numdivs: 50
+    start: 843.0
+    start_unit: M
+    stop: 943.0
+    stop_unit: M
+  mw2pow:
+    delay: 1.0
+    numdivs: 16
+    start: -10.0
+    start_unit: '-'
+    stop: 5.0
+    stop_unit: '-'
+  tau:
+    delay: 0.0
+    numdivs: 40
+    start: 200.0
+    start_unit: u
+    stop: 20.2
+    stop_unit: u

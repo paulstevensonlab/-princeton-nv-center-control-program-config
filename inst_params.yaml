@@ -1,0 +1,137 @@
+instruments:
+  galpie:
+    mfg: DAQmxAnalogOutput
+    model: GalvoPiezo
+    addr: {aoX: /Dev1/ao0, aoY: /Dev1/ao1, aoZ: /Dev1/ao2}
+    set_scale: {volt_per_micron: [0.01417, 0.0159, 0.1], offset: [0.55, 1.07, 3]}  # new confocal setup 09/20
+  ao2:
+    addr: {dev: /Dev1/ao6,  minval: -10, maxval: 10}
+    mfg: DAQmxAnalogOutput
+    model: DAQmxAnalogOutput
+    set_voltage: 9.84
+  voa532:
+    addr: {dev: /Dev1/ao3}
+    mfg: DAQmxAnalogOutput
+    model: DAQmxAnalogOutput
+  # voa637:
+    # addr: {dev: /Dev1/ao5}
+    # mfg: DAQmxAnalogOutput
+    # model: DAQmxAnalogOutput
+  ctrapd:
+    addr: {dev: /Dev1/ctr0}
+    mfg: DAQmxCounterInput
+    model: DAQmxCounterInput
+    addr_src: /Dev1/PFI1
+    addr_gate: /Dev1/PFI0
+  ctrapd2:
+    addr: {dev: /Dev1/ctr1}
+    mfg: DAQmxCounterInput
+    model: DAQmxCounterInput
+    addr_gate: /Dev1/PFI3
+  ctrapd3:
+    addr: {dev: /Dev1/ctr2}
+    mfg: DAQmxCounterInput
+    model: DAQmxCounterInput
+    addr_gate: /Dev1/PFI4
+  ctrapd4:
+    addr: {dev: /Dev1/ctr3}
+    mfg: DAQmxCounterInput
+    model: DAQmxCounterInput
+    addr_gate: /Dev1/PFI5
+  ctrclk:
+    addr: {dev: /Dev1/ctr2, freq: 1000}
+    mfg: DAQmxCounterOutput
+    model: DAQmxCounterOutput
+    addr_out: /Dev1/PFI7
+  ctrtrig:
+    addr: {dev: /Dev1/ctr3, trigtime: 0.001}
+    mfg: DAQmxTriggerOutput
+    model: DAQmxTriggerOutput
+    addr_out: /Dev1/PFI2
+#  mw1:
+ #   addr: N9310A
+  #  mfg: Agilent
+ #   model: N9310A
+ #   set_output: False
+ #   func_onoff: output
+ #   func_iq: iqmod
+#  mw2:
+ #   addr: HP8780A
+  #  mfg: HP8780A
+    #model: HP8780A
+    #set_output: False
+    #func_onoff: output
+    #func_iq: mod_vector
+
+  mw1:
+    addr: TCPIP::129.10.128.90::INSTR
+    mfg: RohdeSchwarz
+    model: SMATE200A
+    set_output: False
+    func_onoff: output
+    func_iq: iqmod
+  # mw1:
+  #   addr: SG384_1
+  #   mfg: SRS
+  #   model: SG384
+  #   set_output: False
+  #   func_onoff: output
+  #   func_iq: iqmod
+
+  mw2:
+    addr: TCPIP::129.10.130.169::INSTR
+    mfg: Siglent
+    model: SDG6022X_RF
+    set_output: False
+    func_onoff: output
+    func_iq: iqmod
+    
+  # awg1:
+    # addr: GPIB0::10::INSTR
+    # set_alias: awg1
+    # mfg: Agilent
+    # model: AWG33622A
+ # awg2:
+   # addr: ETH_AWG2
+   # set_alias: awg2
+   # mfg: Agilent
+   # model: AWG33622A
+  # pm100d:  # GREEN
+    # addr: USB::0x1313::0x807B::17021619::INSTR #PM16-121
+    # mfg: Thorlabs
+    # model: PM100D
+    # set_scale: 1.69/0.480 # 03/28/19
+    #set_scale: 92.0/24.0 # 561nm 90:10 splitter and 561/640 WDM - Peace 05/22/19
+    # set_scale: 4.42/0.735 # 597/98 #561 210308 #900/450 #532 210222 #0.196/0.550 #532nm 210212 #770/124.9 # 561 Lila 11-3-20
+  # pm100d_orange:  # ORANGE
+  #   addr: PM100D
+  #   mfg: Thorlabs
+  #   model: PM100D
+  #   set_scale:  53.5/14.3  # P_at_objective / P_at_beampick: 02/09/18 DLL
+  # tlb1:  # Wavelength Input
+    # addr: None
+    # mfg: NewFocus
+    # model: TLB6700
+    # ao: /Dev2/ao0
+    # ai: /Dev2/ai0
+    # #ai: /Dev2/ai1    # FP cavity
+    # vmin: 0
+    # vmax: 10
+    # set_scale: 3.0/10.0 # lambda / v_out
+    # set_offset: 635.0 # lambda0
+  # tlb2: # Piezo
+    # addr: None
+    # mfg: NewFocus
+    # model: TLB6701
+    # ao: /Dev2/ao1
+    # ai: Dev2/ai0
+    # #ai: /Dev2/ai1    # FP cavity
+    # vmin: -3
+    # vmax: 3
+    # set_scale: 3.0/10.0 # lambda / v_out
+    # set_offset: 635.0 # lambda0
+  # spectrometer:
+    # addr: COM15
+    # mfg: princetoninstruments
+    # model: Spectrometer
+sim: False

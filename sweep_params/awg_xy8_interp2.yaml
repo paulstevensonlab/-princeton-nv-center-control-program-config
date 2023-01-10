@@ -1,0 +1,63 @@
+Confocal:
+  nvnum: 107
+  xpos: 7.438
+  ypos: 28.266
+  zpos: 5.671
+Instrument:
+  mw1freq: 1493560000.0
+  mw1pow: 10.74
+  tlb1piezo: 0.0
+  tlb2piezo: 0.0
+  voa532: 0.0
+  voa637: 0.0
+Manual:
+  Bphi: 0.0
+  Br: 3.5
+  Btheta: -2.5
+  stage_x: 16.872
+  stage_y: 16.57
+Pulse:
+  inv: 1
+  k: 6.0
+  r90pw: 3.2e-08
+  r90vi: 0.0
+  r90vq: 350.0
+  reps: 250000.0
+  tau: 6.928e-06
+  x180pw: 5.6000000000000005e-08
+  x180vi: 350.0
+  x180vq: 0.0
+  y180pw: 5.6000000000000005e-08
+  y180vi: 0.0
+  y180vq: 350.0
+Sweep:
+  chxbx_2desr: true
+  var1_delay: 0.0
+  var1_name: tau
+  var1_numdivs: 40
+  var1_start: 0.1
+  var1_start_unit: u
+  var1_stop: 20.0
+  var1_stop_unit: u
+  var2_delay: 0.0
+  var2_name: itr
+  var2_numdivs: 2
+  var2_start: 0.0
+  var2_start_unit: '-'
+  var2_stop: 1.0
+  var2_stop_unit: '-'
+sweep_var:
+  itr:
+    delay: 0.0
+    numdivs: 2
+    start: 0.0
+    start_unit: '-'
+    stop: 1.0
+    stop_unit: '-'
+  tau:
+    delay: 0.0
+    numdivs: 40
+    start: 0.1
+    start_unit: u
+    stop: 20.0
+    stop_unit: u

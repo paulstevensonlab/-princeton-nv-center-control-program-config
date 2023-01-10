@@ -1,0 +1,43 @@
+# Requirements: 
+# 1. time_sep > time_green - aom_delay - time_det
+# 2. time_sep + 2*time_det < time_green < time_sep + 2*time_det + aom_delay
+# 3. time_dark > 2*time_det + time_sep + aom_delay - time_green
+
+# Requirements when 'readout calibration' checked: (Set parameters in the GUI)
+# 1. time_green > aom_delay + 2*time_det + time_sep, usually you need to make time_green longer as time_green here is trimmed!
+
+# # UHV confocal
+# aom_delay:   1100e-9 # 1540e-9 # isomet 872e-9
+# aom_delay2:  740e-9 # Red laser isomet
+# awg_offset: -200e-9
+# awg_preedge: 8e-9    #     12e-9
+# awg_postedge: 8e-9   #     12e-9
+# mw_delay: 52e-9 #12e-9
+# time_dark: 4000e-9 #2000e-9
+# time_green: 3800e-9
+# time_det: 250e-9
+# time_sep: 3000e-9
+
+# Air confocal
+aom_delay:   760e-9 # 900e-9 # isomet 872e-9
+#aom_delay:   1100e-9 # 1540e-9 # isomet 872e-9
+aom_delay2:  740e-9 # Red laser isomet
+awg_offset: -210e-9
+awg_preedge: 8e-9    #     12e-9
+awg_postedge: 8e-9   #     12e-9
+mw_delay: 60e-9 #12e-9
+time_dark: 2000e-9 #2000e-9
+time_green: 3800e-9
+time_det: 300e-9
+time_sep: 2000e-9
+
+
+# aom_delay: 800e-9
+# awg_offset: -200e-9
+# mw_delay: 52e-9
+# time_dark: 2000e-9
+# time_green: 4800e-9
+# time_det: 300e-9
+# time_sep: 3000e-9
+
+

@@ -1,0 +1,75 @@
+Confocal:
+  xpos: 3.209
+  ypos: -2.845
+  zpos: 4.545
+Instrument:
+  mw1freq: -1.0
+  mw1pow: -1.0
+Manual:
+  Bphi: 187.3
+  Br: 0.18
+  Btheta: 7.0
+  stage_x: 30.95
+  stage_y: 26.62
+Pulse:
+  dt: 5.2e-08
+  inv: 0
+  reps: 2000000.0
+  tau: 7.2e-07
+  tau_p: !!python/object/apply:numpy.core.multiarray.scalar
+  - !!python/object/apply:numpy.dtype
+    args:
+    - f8
+    - 0
+    - 1
+    state: !!python/tuple
+    - 3
+    - <
+    - null
+    - null
+    - null
+    - -1
+    - -1
+    - 0
+  - !!binary |
+    je21oPfGoD4=
+  x90pw: 4.8e-08
+  x90vi: 300.0
+  x90vq: 0.0
+  y180pw: 9.6e-08
+  y180vi: 0.0
+  y180vq: 300.0
+  y90pw: 4.8e-08
+  y90vi: 0.0
+  y90vq: 300.0
+Sweep:
+  chxbx_2desr: false
+  var1_delay: 0.0
+  var1_name: tau
+  var1_numdivs: 100
+  var1_start: 0.12
+  var1_start_unit: u
+  var1_stop: 10.12
+  var1_stop_unit: u
+  var2_delay: 0.0
+  var2_name: zpos
+  var2_numdivs: 10
+  var2_start: 0.0
+  var2_start_unit: '-'
+  var2_stop: 1.0
+  var2_stop_unit: '-'
+sweep_var:
+  tau:
+    delay: 0.0
+    numdivs: 100
+    start: 0.12
+    start_unit: u
+    stop: 10.12
+    stop_unit: u
+  zpos:
+    delay: 0.0
+    numdivs: 10
+    start: 0.0
+    start_unit: '-'
+    stop: 1.0
+    stop_unit: '-'

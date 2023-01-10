@@ -1,0 +1,83 @@
+Confocal:
+  xpos: 3.209
+  ypos: -2.845
+  zpos: 4.545
+Instrument:
+  mw1freq: -1.0
+  mw1pow: -1.0
+Manual:
+  Bphi: 187.3
+  Br: 0.18
+  Btheta: 7.0
+  stage_x: 30.95
+  stage_y: 26.62
+Pulse:
+  deer_x90pw: 4.8e-08
+  deer_x90vi: 300.0
+  deer_x90vq: 0.0
+  deer_y180vi: 0.0
+  deer_y180vq: 300.0
+  deer_y90pw: 4.8e-08
+  deer_y90vi: -300.0
+  deer_y90vq: 0.0
+  dt: 5.0e-06
+  inv: 1
+  reps: 2000000.0
+  tau: 7.2e-07
+  tau_p: !!python/object/apply:numpy.core.multiarray.scalar
+  - !!python/object/apply:numpy.dtype
+    args:
+    - f8
+    - 0
+    - 1
+    state: !!python/tuple
+    - 3
+    - <
+    - null
+    - null
+    - null
+    - -1
+    - -1
+    - 0
+  - !!binary |
+    LGmkKSsbgD4=
+  x90pw: 4.8e-08
+  x90vi: 300.0
+  x90vq: 0.0
+  y180pw: 9.6e-08
+  y180vi: 0.0
+  y180vq: 300.0
+  y90pw: 4.8e-08
+  y90vi: 0.0
+  y90vq: 300.0
+Sweep:
+  chxbx_2desr: false
+  var1_delay: 0.0
+  var1_name: tau_p
+  var1_numdivs: 50
+  var1_start: 120.0
+  var1_start_unit: n
+  var1_stop: 1120.0
+  var1_stop_unit: n
+  var2_delay: 0.0
+  var2_name: itr
+  var2_numdivs: 5
+  var2_start: 0.0
+  var2_start_unit: '-'
+  var2_stop: 1.0
+  var2_stop_unit: '-'
+sweep_var:
+  itr:
+    delay: 0.0
+    numdivs: 5
+    start: 0.0
+    start_unit: '-'
+    stop: 1.0
+    stop_unit: '-'
+  tau_p:
+    delay: 0.0
+    numdivs: 50
+    start: 120.0
+    start_unit: n
+    stop: 1120.0
+    stop_unit: n

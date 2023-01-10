@@ -1,0 +1,134 @@
+dbl_confocal_x_start:
+  setDecimals: 2
+  setRange: [-200, 200]
+  setSingleStep: 0.1
+dbl_confocal_x_stop:
+  setDecimals: 2
+  setRange: [-200, 200]
+  setSingleStep: 0.1
+dbl_confocal_y_start:
+  setDecimals: 2
+  setRange: [-200, 200]
+  setSingleStep: 0.1
+dbl_confocal_y_stop:
+  setDecimals: 2
+  setRange: [-200, 200]
+  setSingleStep: 0.1
+dbl_confocal_z_start:
+  setDecimals: 2
+  setRange: [0, 13]
+  setSingleStep: 0.1
+dbl_confocal_z_stop:
+  setDecimals: 2
+  setRange: [0, 13]
+  setSingleStep: 0.1
+int_confocal_x_numdivs:
+  setRange: [0, 2000]
+  setSingleStep: 100
+int_confocal_y_numdivs:
+  setRange: [0, 2000]
+  setSingleStep: 100
+int_confocal_z_numdivs:
+  setRange: [0, 2000]
+  setSingleStep: 1
+dbl_confocal_acqtime:
+  setDecimals: 5
+  setRange: [0.00001, 0.2]
+  setSingleStep: 0.001
+int_confocal_live_avg:
+  setRange: [1, 50]
+  setSingleStep: 1
+dbl_confocal_stage_x:
+  setDecimals: 3
+  setRange: [0, 50]
+  setSingleStep: 0.005
+dbl_confocal_stage_y:
+  setDecimals: 3
+  setRange: [0, 50]
+  setSingleStep: 0.005
+dbl_tracker_xpos:
+  setDecimals: 3
+  setRange: [-200, 200]
+  setSingleStep: 0.01
+dbl_tracker_ypos:
+  setDecimals: 3
+  setRange: [-200, 200]
+  setSingleStep: 0.01
+dbl_tracker_zpos:
+  setDecimals: 3
+  setRange: [0, 13]
+  setSingleStep: 0.01
+dbl_tracker_xystep:
+  setDecimals: 2
+  setRange: [0, 1]
+  setSingleStep: 0.05
+dbl_tracker_zstep:
+  setDecimals: 2
+  setRange: [0, 1]
+  setSingleStep: 0.05
+dbl_tracker_xrng:
+  setDecimals: 1
+  setRange: [0, 5]
+  setSingleStep: 0.1
+dbl_tracker_yrng:
+  setDecimals: 1
+  setRange: [0, 5]
+  setSingleStep: 0.1
+dbl_tracker_zrng:
+  setDecimals: 1
+  setRange: [0, 5]
+  setSingleStep: 0.1
+int_tracker_numdivs:
+  setRange: [0, 500]
+  setSingleStep: 10
+dbl_tracker_period:
+  setDecimals: 1
+  setSingleStep: 1
+dbl_tracker_acqtime:
+  setDecimals: 3
+  setRange: [0, 0.5]
+  setSingleStep: 0.01
+dbl_liveapd_acqtime:
+  setDecimals: 3
+  setRange: [0.001, 20]
+  setSingleStep: 0.1
+var1_start:
+  setRange: [-9999, 9999]
+  setDecimals: 3
+  setSingleStep: 1
+var1_stop:
+  setRange: [-9999, 9999]
+  setDecimals: 3
+  setSingleStep: 1
+var1_numdivs:
+  setRange: [0, 10000]
+  setSingleStep: 1
+var1_delay:
+  setDecimals: 5
+  setRange: [0, 100]
+  setSingleStep: 0.1
+var2_start:
+  setRange: [-9999, 9999]
+  setDecimals: 3
+  setSingleStep: 1
+var2_stop:
+  setRange: [-9999, 9999]
+  setDecimals: 3
+  setSingleStep: 1
+var2_numdivs:
+  setRange: [0, 10000]
+  setSingleStep: 1
+var2_delay:
+  setDecimals: 4
+  setRange: [0, 100]
+  setSingleStep: 0.1
+chkbx_tracker_period:
+  setChecked: True
+dbl_tracker_period:
+  setRange: [0, 100]
+  setDecimals: 3
+  setSingleStep: 1
+chkbx_autosave:
+  setChecked: True
+chkbx_nvlist_enable:
+  setChecked: False

@@ -1,0 +1,122 @@
+Confocal:
+  nvnum: 0
+  xpos: 0.0
+  ypos: 0.0
+  zpos: 0.0
+Instrument:
+  mw1freq: 2400000000.0
+  mw1pow: 5.0
+  tlb1piezo: 0.0
+  tlb2piezo: !!python/object/apply:numpy.core.multiarray.scalar
+  - !!python/object/apply:numpy.dtype
+    args:
+    - f8
+    - 0
+    - 1
+    state: !!python/tuple
+    - 3
+    - <
+    - null
+    - null
+    - null
+    - -1
+    - -1
+    - 0
+  - !!binary |
+    AAAAAAAA4D8=
+  voa532: 0.0
+  voa637: 0.0
+Manual:
+  Bphi: 0.0
+  Br: 30.0
+  Btheta: 0.0
+  stage_x: 32.56
+  stage_y: 10.0
+Pulse:
+  aom_delay2: 7.0e-07
+  red_delay: 7.4e-07
+  reps: 20000.0
+  t_green: 5.0e-07
+  t_green_dark: 1.0e-06
+  t_red: 5.0e-06
+  t_red_dark: 1.0e-06
+Sweep:
+  chxbx_2desr: false
+  var1_delay: 0.0
+  var1_name: tlb2piezo
+  var1_numdivs: 300
+  var1_start: 0.05
+  var1_start_unit: '-'
+  var1_stop: 0.5
+  var1_stop_unit: '-'
+  var2_delay: 1.0
+  var2_name: itr
+  var2_numdivs: 10
+  var2_start: 0.0
+  var2_start_unit: '-'
+  var2_stop: 1.0
+  var2_stop_unit: '-'
+sweep_var:
+  Bphi:
+    delay: 1.0
+    numdivs: 0
+    start: 0.0
+    start_unit: '-'
+    stop: 0.0
+    stop_unit: '-'
+  itr:
+    delay: 1.0
+    numdivs: 10
+    start: 0.0
+    start_unit: '-'
+    stop: 1.0
+    stop_unit: '-'
+  readout_delay:
+    delay: 0.5
+    numdivs: 30
+    start: 50.0
+    start_unit: u
+    stop: 1.0
+    stop_unit: u
+  t_green_dark:
+    delay: 0.0
+    numdivs: 1000
+    start: 128.0
+    start_unit: u
+    stop: 1.128
+    stop_unit: u
+  tau_repump:
+    delay: 1.0
+    numdivs: 30
+    start: 700.0
+    start_unit: n
+    stop: 950.0
+    stop_unit: n
+  tlb1piezo:
+    delay: 0.0
+    numdivs: 200
+    start: 5.0
+    start_unit: '-'
+    stop: 6.2
+    stop_unit: '-'
+  tlb2piezo:
+    delay: 0.0
+    numdivs: 300
+    start: 0.05
+    start_unit: '-'
+    stop: 0.5
+    stop_unit: '-'
+  voa532:
+    delay: 1.0
+    numdivs: 3
+    start: 0.0
+    start_unit: '-'
+    stop: 3.0
+    stop_unit: '-'
+  voa637:
+    delay: 1.0
+    numdivs: 20
+    start: 2.0
+    start_unit: '-'
+    stop: 3.0
+    stop_unit: '-'

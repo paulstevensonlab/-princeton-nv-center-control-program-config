@@ -1,0 +1,167 @@
+Confocal:
+  xpos: !!python/object/apply:numpy.core.multiarray.scalar
+  - !!python/object/apply:numpy.dtype
+    args:
+    - f8
+    - 0
+    - 1
+    state: !!python/tuple
+    - 3
+    - <
+    - null
+    - null
+    - null
+    - -1
+    - -1
+    - 0
+  - !!binary |
+    TDeJQWDlH8A=
+  ypos: !!python/object/apply:numpy.core.multiarray.scalar
+  - !!python/object/apply:numpy.dtype
+    args:
+    - f8
+    - 0
+    - 1
+    state: !!python/tuple
+    - 3
+    - <
+    - null
+    - null
+    - null
+    - -1
+    - -1
+    - 0
+  - !!binary |
+    bxKDwMohEMA=
+  zpos: !!python/object/apply:numpy.core.multiarray.scalar
+  - !!python/object/apply:numpy.dtype
+    args:
+    - f8
+    - 0
+    - 1
+    state: !!python/tuple
+    - 3
+    - <
+    - null
+    - null
+    - null
+    - -1
+    - -1
+    - 0
+  - !!binary |
+    9P3UeOkmFkA=
+Instrument:
+  mw1freq: 1976194230.0
+  mw1pow: 8.7
+  mw2freq: 893806000.0
+  mw2pow: 3.0
+Manual:
+  Bphi: 184.5
+  Br: 0.18
+  Btheta: 3750.0
+  stage_x: 30.95
+  stage_y: 26.62
+Pulse:
+  deer_vi: !!python/object/apply:numpy.core.multiarray.scalar
+  - !!python/object/apply:numpy.dtype
+    args:
+    - f8
+    - 0
+    - 1
+    state: !!python/tuple
+    - 3
+    - <
+    - null
+    - null
+    - null
+    - -1
+    - -1
+    - 0
+  - !!binary |
+    AAAAAADAckA=
+  deer_vq: 0.0
+  deer_y180vi: 300.0
+  deer_y180vq: 0.0
+  deerpulsewidth: !!python/object/apply:numpy.core.multiarray.scalar
+  - !!python/object/apply:numpy.dtype
+    args:
+    - f8
+    - 0
+    - 1
+    state: !!python/tuple
+    - 3
+    - <
+    - null
+    - null
+    - null
+    - -1
+    - -1
+    - 0
+  - !!binary |
+    Ooww4o55dT4=
+  dt: 4.0e-08
+  inv: 1
+  reps: 1000000.0
+  tau: 1.0e-06
+  tau_p: 4.0e-08
+  x90pw: 4.0e-08
+  x90vi: 300.0
+  x90vq: 0.0
+  y180pw: 8.0e-08
+  y180vi: 0.0
+  y180vq: 300.0
+  y90pw: 4.0e-08
+  y90vi: 0.0
+  y90vq: 300.0
+Sweep:
+  chxbx_2desr: true
+  var1_delay: 0.0
+  var1_name: deer_vi
+  var1_numdivs: 30
+  var1_start: 0.0
+  var1_start_unit: '-'
+  var1_stop: 300.0
+  var1_stop_unit: '-'
+  var2_delay: 0.0
+  var2_name: itr
+  var2_numdivs: 5
+  var2_start: 0.0
+  var2_start_unit: '-'
+  var2_stop: 1.0
+  var2_stop_unit: '-'
+sweep_var:
+  deer_vi:
+    delay: 0.0
+    numdivs: 30
+    start: 0.0
+    start_unit: '-'
+    stop: 300.0
+    stop_unit: '-'
+  deerpulsewidth:
+    delay: 0.01
+    numdivs: 12
+    start: 0.0
+    start_unit: n
+    stop: 240.0
+    stop_unit: n
+  itr:
+    delay: 0.0
+    numdivs: 5
+    start: 0.0
+    start_unit: '-'
+    stop: 1.0
+    stop_unit: '-'
+  mw2pow:
+    delay: 0.0
+    numdivs: 10
+    start: -1.0
+    start_unit: '-'
+    stop: 9.0
+    stop_unit: '-'
+  tau:
+    delay: 0.01
+    numdivs: 4
+    start: 1.0
+    start_unit: u
+    stop: 5.0
+    stop_unit: u

@@ -1,0 +1,133 @@
+Confocal:
+  xpos: !!python/object/apply:numpy.core.multiarray.scalar
+  - !!python/object/apply:numpy.dtype
+    args:
+    - f8
+    - 0
+    - 1
+    state: !!python/tuple
+    - 3
+    - <
+    - null
+    - null
+    - null
+    - -1
+    - -1
+    - 0
+  - !!binary |
+    j8L1KFwPEcA=
+  ypos: !!python/object/apply:numpy.core.multiarray.scalar
+  - !!python/object/apply:numpy.dtype
+    args:
+    - f8
+    - 0
+    - 1
+    state: !!python/tuple
+    - 3
+    - <
+    - null
+    - null
+    - null
+    - -1
+    - -1
+    - 0
+  - !!binary |
+    okW28/3UCsA=
+  zpos: !!python/object/apply:numpy.core.multiarray.scalar
+  - !!python/object/apply:numpy.dtype
+    args:
+    - f8
+    - 0
+    - 1
+    state: !!python/tuple
+    - 3
+    - <
+    - null
+    - null
+    - null
+    - -1
+    - -1
+    - 0
+  - !!binary |
+    WmQ730+NFkA=
+Instrument:
+  mw1freq: 1976194230.0
+  mw1pow: 8.7
+  mw2freq: 893806000.0
+  mw2pow: -50.0
+Manual:
+  Bphi: 184.5
+  Br: 0.18
+  Btheta: 3750.0
+  stage_x: 30.95
+  stage_y: 26.62
+Pulse:
+  deerpulsewidth: !!python/object/apply:numpy.core.multiarray.scalar
+  - !!python/object/apply:numpy.dtype
+    args:
+    - f8
+    - 0
+    - 1
+    state: !!python/tuple
+    - 3
+    - <
+    - null
+    - null
+    - null
+    - -1
+    - -1
+    - 0
+  - !!binary |
+    AAAAAAAAAAA=
+  dt: 2.0e-08
+  inv: 1
+  reps: 1000000.0
+  tau: 1.0e-06
+  tau_p: 2.0e-08
+  x90pw: 4.0e-08
+  x90vi: 300.0
+  x90vq: 0.0
+  y180pw: 8.0e-08
+  y180vi: 0.0
+  y180vq: 300.0
+  y90pw: 4.0e-08
+  y90vi: 0.0
+  y90vq: 300.0
+Sweep:
+  chxbx_2desr: true
+  var1_delay: 0.0
+  var1_name: deerpulsewidth
+  var1_numdivs: 20
+  var1_start: 0.0
+  var1_start_unit: n
+  var1_stop: 400.0
+  var1_stop_unit: n
+  var2_delay: 0.0
+  var2_name: itr
+  var2_numdivs: 10
+  var2_start: 0.0
+  var2_start_unit: '-'
+  var2_stop: 1.0
+  var2_stop_unit: '-'
+sweep_var:
+  Bphi:
+    delay: 0.0
+    numdivs: 4
+    start: -242.0
+    start_unit: '-'
+    stop: 242.0
+    stop_unit: '-'
+  deerpulsewidth:
+    delay: 0.0
+    numdivs: 20
+    start: 0.0
+    start_unit: n
+    stop: 400.0
+    stop_unit: n
+  itr:
+    delay: 0.0
+    numdivs: 10
+    start: 0.0
+    start_unit: '-'
+    stop: 1.0
+    stop_unit: '-'

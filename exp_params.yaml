@@ -1,0 +1,99 @@
+instruments:
+  galpie:
+    mfg: DAQmxAnalogOutput
+    model: GalvoPiezo
+    addr: {aoX: /Dev1/ao0, aoY: /Dev1/ao1, aoZ: /Dev1/ao2}
+    set_scale: {volt_per_micron: [-2/100/1.3, -2/100/1.3, 0.727], offset: [2.35, -0.27, 0]}
+  ao2:
+    addr: {dev: /Dev1/ao6,  minval: -10, maxval: 10}
+    mfg: DAQmxAnalogOutput
+    model: DAQmxAnalogOutput
+    set_voltage: 9.84
+  ao3:
+    addr: {dev: /Dev1/ao7,  minval: -10, maxval: 10}
+    mfg: DAQmxAnalogOutput
+    model: DAQmxAnalogOutput
+    set_voltage: 7
+  voa532:
+    addr: {dev: /Dev1/ao4}
+    mfg: DAQmxAnalogOutput
+    model: DAQmxAnalogOutput
+  ctrapd:
+    addr: {dev: /Dev1/ctr0}
+    mfg: DAQmxCounterInput
+    model: DAQmxCounterInput
+    addr_src: /Dev1/PFI5
+    addr_gate: /Dev1/PFI6
+  ctrapd2:
+    addr: {dev: /Dev1/ctr1}
+    mfg: DAQmxCounterInput
+    model: DAQmxCounterInput
+    addr_gate: /Dev1/PFI3
+  ctrapd3:
+    addr: {dev: /Dev1/ctr2}
+    mfg: DAQmxCounterInput
+    model: DAQmxCounterInput
+    addr_gate: /Dev1/PFI4   # change this for real acquisition - 07/25/17
+  ctrapd4:
+    addr: {dev: /Dev1/ctr3}
+    mfg: DAQmxCounterInput
+    model: DAQmxCounterInput
+    addr_gate: /Dev1/PFI3   # change this for real acquisition - 07/25/17
+  ctrclk:
+    addr: {dev: /Dev1/ctr2, freq: 1000}
+    mfg: DAQmxCounterOutput
+    model: DAQmxCounterOutput
+    addr_out: /Dev1/PFI7
+  ctrtrig:
+    addr: {dev: /Dev1/ctr3, trigtime: 0.001}
+    mfg: DAQmxTriggerOutput
+    model: DAQmxTriggerOutput
+    addr_out: /Dev1/PFI2
+  # mw1:
+    # addr: SMATE200A
+    # mfg: RohdeSchwarz
+    # model: SMATE200A_1
+    # set_output: False
+    # func_onoff: output
+    # func_iq: iqmod
+  mw1:
+    addr: n9310siggen
+    mfg: agilent
+    model: N9310A
+    set_output: False
+    func_onoff: output
+    func_iq: iqmod
+  mw2:
+    addr: SMATE200A
+    mfg: RohdeSchwarz
+    model: SMATE200A_2
+    set_output: False
+    func_onoff: output
+    func_iq: iqmod
+  pm100d:  # GREEN
+    addr: USB::0x1313::0x807B::17021619::INSTR # PM16-121
+    mfg: Thorlabs
+    model: PM100D
+    # set_scale: 13.6/7.1  # P_at_objective / P_at_beampick: 08/01/17 DLL
+    # set_scale: 0.115/0.028 # 532nm Calibrated 05/10/18 - Peace
+    set_scale: 770/124.9 # 561 Lila 11-3-20
+  pm100d_orange:  # ORANGE
+    addr: PM100D
+    mfg: Thorlabs
+    model: PM100D
+    set_scale:  0.196/0.550 #532 updated 210212# 53.5/14.3  # P_at_objective / P_at_beampick: 02/09/18 DLL
+  # awg1:
+    # addr: ETH_AWG1
+    # set_alias: awg1
+    # mfg: agilent
+    # model: AWG33622A
+  # awg2:
+    # addr: ETH_AWG2
+    # set_alias: awg2
+    # mfg: agilent
+    # model: AWG33622A
+  voa532:
+    addr: {dev: /Dev1/ao4}
+    mfg: DAQmxAnalogOutput
+    model: DAQmxAnalogOutput
+sim: False

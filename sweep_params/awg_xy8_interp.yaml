@@ -1,0 +1,119 @@
+Confocal:
+  nvnum: 130
+  xpos: -23.433
+  ypos: 35.436
+  zpos: 10.231
+Instrument:
+  mw1freq: 2795841000.0
+  mw1pow: 14.6
+  tlb1piezo: 0.0
+  tlb2piezo: 0.0
+  voa532: 5.0
+  voa637: 0.0
+Manual:
+  Bphi: 3.5
+  Br: 30.0
+  Btheta: 2.5
+  stage_x: 30.678
+  stage_y: 9.13
+Pulse:
+  inv: 1
+  k: 4.0
+  r90pw: 2.7030188744207685e-08
+  r90vi: 0.0
+  r90vq: 350.0
+  reps: 500000.0
+  tau: 7.36e-07
+  x180pw: 5.5300485238920676e-08
+  x180vi: 350.0
+  x180vq: 0.0
+  y180pw: 5.5300485238920676e-08
+  y180vi: 0.0
+  y180vq: 350.0
+Sweep:
+  chxbx_2desr: true
+  var1_delay: 0.0
+  var1_name: tau
+  var1_numdivs: 30
+  var1_start: 0.2
+  var1_start_unit: u
+  var1_stop: 10.0
+  var1_stop_unit: u
+  var2_delay: 0.0
+  var2_name: itr
+  var2_numdivs: 3
+  var2_start: 0.0
+  var2_start_unit: '-'
+  var2_stop: 0.0
+  var2_stop_unit: '-'
+sweep_var:
+  Bphi:
+    delay: 0.0
+    numdivs: 0
+    start: 0.0
+    start_unit: '-'
+    stop: 0.0
+    stop_unit: '-'
+  Btheta:
+    delay: 0.0
+    numdivs: 4
+    start: 5.0
+    start_unit: '-'
+    stop: 9.0
+    stop_unit: '-'
+  itr:
+    delay: 0.0
+    numdivs: 3
+    start: 0.0
+    start_unit: '-'
+    stop: 0.0
+    stop_unit: '-'
+  mw1freq:
+    delay: 0.0
+    numdivs: 40
+    start: 2140.0
+    start_unit: M
+    stop: 2180.0
+    stop_unit: M
+  mw1pow:
+    delay: 0.0
+    numdivs: 20
+    start: 0.0
+    start_unit: n
+    stop: 200.0
+    stop_unit: n
+  nvnum:
+    delay: 0.0
+    numdivs: 19
+    start: 21.0
+    start_unit: '-'
+    stop: 40.0
+    stop_unit: '-'
+  pulsewidth:
+    delay: 0.0
+    numdivs: 20
+    start: 0.0
+    start_unit: n
+    stop: 240.0
+    stop_unit: n
+  tau:
+    delay: 0.0
+    numdivs: 30
+    start: 0.2
+    start_unit: u
+    stop: 10.0
+    stop_unit: u
+  vi:
+    delay: 0.0
+    numdivs: 60
+    start: -300.0
+    start_unit: '-'
+    stop: 300.0
+    stop_unit: '-'
+  vq:
+    delay: 0.0
+    numdivs: 60
+    start: -300.0
+    start_unit: '-'
+    stop: 300.0
+    stop_unit: '-'

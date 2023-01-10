@@ -1,0 +1,78 @@
+Confocal:
+  xpos: !!python/object/apply:numpy.core.multiarray.scalar
+  - &id001 !!python/object/apply:numpy.dtype
+    args:
+    - f8
+    - 0
+    - 1
+    state: !!python/tuple
+    - 3
+    - <
+    - null
+    - null
+    - null
+    - -1
+    - -1
+    - 0
+  - !!binary |
+    gZVDi2yHM8A=
+  ypos: !!python/object/apply:numpy.core.multiarray.scalar
+  - *id001
+  - !!binary |
+    tvP91HjpIkA=
+  zpos: !!python/object/apply:numpy.core.multiarray.scalar
+  - *id001
+  - !!binary |
+    ZmZmZmZmFUA=
+Instrument:
+  mw1freq: -1.0
+  mw1pow: -1.0
+  mw2freq: -1.0
+  mw2pow: -1.0
+  tlb1piezo: 0.0
+  tlb2piezo: 2.2
+Manual:
+  Bphi: 187.3
+  Br: 0.18
+  Btheta: 7.0
+  stage_x: 30.95
+  stage_y: 26.62
+Pulse: {}
+Sweep:
+  chxbx_2desr: false
+  var1_delay: 1.0
+  var1_name: tlb2piezo
+  var1_numdivs: 100
+  var1_start: 2.2
+  var1_start_unit: '-'
+  var1_stop: 2.8
+  var1_stop_unit: '-'
+  var2_delay: 0.0
+  var2_name: Bphi
+  var2_numdivs: 0
+  var2_start: 0.0
+  var2_start_unit: '-'
+  var2_stop: 0.0
+  var2_stop_unit: '-'
+sweep_var:
+  Bphi:
+    delay: 0.0
+    numdivs: 0
+    start: 0.0
+    start_unit: '-'
+    stop: 0.0
+    stop_unit: '-'
+  tlb1piezo:
+    delay: 1.0
+    numdivs: 30
+    start: -3.0
+    start_unit: '-'
+    stop: 3.0
+    stop_unit: '-'
+  tlb2piezo:
+    delay: 1.0
+    numdivs: 100
+    start: 2.2
+    start_unit: '-'
+    stop: 2.8
+    stop_unit: '-'

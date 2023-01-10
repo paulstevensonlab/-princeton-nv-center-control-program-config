@@ -1,0 +1,110 @@
+Confocal:
+  nvnum: 0
+  xpos: -3.608
+  ypos: 2.46
+  zpos: 4.801
+Instrument:
+  mw1freq: 2920000000.0
+  mw1pow: -20.0
+  mw2freq: 1000000.0
+  mw2pow: !!python/object/apply:numpy.core.multiarray.scalar
+  - !!python/object/apply:numpy.dtype
+    args:
+    - f8
+    - 0
+    - 1
+    state: !!python/tuple
+    - 3
+    - <
+    - null
+    - null
+    - null
+    - -1
+    - -1
+    - 0
+  - !!binary |
+    J8B7ivr/PUA=
+  voa532: 0.0
+Manual:
+  Bphi: 0.0
+  Br: 3.5
+  Btheta: -2.5
+  stage_x: 9.415
+  stage_y: 13.55
+Pulse:
+  pulsewidth: 0.0001
+  reps: 2000.0
+  tau: 0.0001
+Sweep:
+  chxbx_2desr: true
+  var1_delay: 0.1
+  var1_name: mw1freq
+  var1_numdivs: 50
+  var1_start: 2820.0
+  var1_start_unit: M
+  var1_stop: 2920.0
+  var1_stop_unit: M
+  var2_delay: 0.0
+  var2_name: mw2pow
+  var2_numdivs: 3
+  var2_start: 10.0
+  var2_start_unit: '-'
+  var2_stop: 30.0
+  var2_stop_unit: '-'
+sweep_var:
+  Bphi:
+    delay: 0.0
+    numdivs: 4
+    start: 99.99
+    start_unit: '-'
+    stop: 99.99
+    stop_unit: '-'
+  itr:
+    delay: 0.0
+    numdivs: 10
+    start: 0.0
+    start_unit: '-'
+    stop: 0.0
+    stop_unit: '-'
+  mw1freq:
+    delay: 0.1
+    numdivs: 50
+    start: 2820.0
+    start_unit: M
+    stop: 2920.0
+    stop_unit: M
+  mw1pow:
+    delay: 0.0
+    numdivs: 5
+    start: -20.0
+    start_unit: '-'
+    stop: -16.0
+    stop_unit: '-'
+  mw2freq:
+    delay: 0.0
+    numdivs: 20
+    start: 2.0
+    start_unit: M
+    stop: 12.0
+    stop_unit: M
+  mw2pow:
+    delay: 0.0
+    numdivs: 3
+    start: 10.0
+    start_unit: '-'
+    stop: 30.0
+    stop_unit: '-'
+  nvnum:
+    delay: 0.0
+    numdivs: 3
+    start: 1.0
+    start_unit: '-'
+    stop: 3.0
+    stop_unit: '-'
+  tau:
+    delay: 0.0
+    numdivs: 24
+    start: 0.2
+    start_unit: u
+    stop: 10.0
+    stop_unit: u

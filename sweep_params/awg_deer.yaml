@@ -1,0 +1,120 @@
+Confocal:
+  nvnum: 37
+  xpos: !!python/object/apply:numpy.core.multiarray.scalar
+  - &id001 !!python/object/apply:numpy.dtype
+    args:
+    - f8
+    - 0
+    - 1
+    state: !!python/tuple
+    - 3
+    - <
+    - null
+    - null
+    - null
+    - -1
+    - -1
+    - 0
+  - !!binary |
+    j8L1KFyP4j8=
+  ypos: !!python/object/apply:numpy.core.multiarray.scalar
+  - *id001
+  - !!binary |
+    bxKDwMohFMA=
+  zpos: !!python/object/apply:numpy.core.multiarray.scalar
+  - *id001
+  - !!binary |
+    nu+nxku3FUA=
+Instrument:
+  mw1freq: 2660000000.0
+  mw1pow: 14.5
+  mw2freq: 1300000000.0
+  mw2pow: 4.0
+Manual:
+  Bphi: !!python/object/apply:numpy.core.multiarray.scalar
+  - *id001
+  - !!binary |
+    AAAAAACAOMA=
+  Br: !!python/object/apply:numpy.core.multiarray.scalar
+  - *id001
+  - !!binary |
+    MzMzMzMzyz8=
+  Btheta: !!python/object/apply:numpy.core.multiarray.scalar
+  - *id001
+  - !!binary |
+    AAAAAAAAKUA=
+  stage_x: 15.8
+  stage_y: 23.3
+Pulse:
+  deerpulsewidth: 0.0
+  inv: 1
+  reps: 500000.0
+  tau: 2.0e-06
+  x90pw: 2.8e-08
+  x90vi: 300.0
+  x90vq: 0.0
+  y180pw: 0.0
+  y180vi: 0.0
+  y180vq: 0.0
+  y90pw: 2.8e-08
+  y90vi: -300.0
+  y90vq: 0.0
+Sweep:
+  chxbx_2desr: false
+  var1_delay: 0.0
+  var1_name: tau
+  var1_numdivs: 63
+  var1_start: 0.256
+  var1_start_unit: u
+  var1_stop: 16.384
+  var1_stop_unit: u
+  var2_delay: 0.0
+  var2_name: mw2pow
+  var2_numdivs: 1
+  var2_start: -50.0
+  var2_start_unit: '-'
+  var2_stop: 0.0
+  var2_stop_unit: '-'
+sweep_var:
+  deerpulsewidth:
+    delay: 0.0
+    numdivs: 24
+    start: 12.0
+    start_unit: n
+    stop: 108.0
+    stop_unit: n
+  itr:
+    delay: 0.0
+    numdivs: 5
+    start: 0.0
+    start_unit: '-'
+    stop: 1.0
+    stop_unit: '-'
+  mw2freq:
+    delay: 0.1
+    numdivs: 200
+    start: 700.0
+    start_unit: M
+    stop: 1300.0
+    stop_unit: M
+  mw2pow:
+    delay: 0.0
+    numdivs: 1
+    start: -50.0
+    start_unit: '-'
+    stop: 0.0
+    stop_unit: '-'
+  tau:
+    delay: 0.0
+    numdivs: 63
+    start: 0.256
+    start_unit: u
+    stop: 16.384
+    stop_unit: u
+  x90pw:
+    delay: 0.0
+    numdivs: 10
+    start: 0.0
+    start_unit: n
+    stop: 200.0
+    stop_unit: n

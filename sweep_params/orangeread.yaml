@@ -1,0 +1,127 @@
+Confocal:
+  nvnum: 21
+  xpos: !!python/object/apply:numpy.core.multiarray.scalar
+  - &id001 !!python/object/apply:numpy.dtype
+    args:
+    - f8
+    - 0
+    - 1
+    state: !!python/tuple
+    - 3
+    - <
+    - null
+    - null
+    - null
+    - -1
+    - -1
+    - 0
+  - !!binary |
+    5dAi2/l+5j8=
+  ypos: !!python/object/apply:numpy.core.multiarray.scalar
+  - *id001
+  - !!binary |
+    8tJNYhBYHMA=
+  zpos: !!python/object/apply:numpy.core.multiarray.scalar
+  - *id001
+  - !!binary |
+    SOF6FK5HFUA=
+Instrument:
+  mw1freq: -1.0
+  mw1pow: -1.0
+  mw2freq: -1.0
+  mw2pow: -1.0
+Manual:
+  Bphi: !!python/object/apply:numpy.core.multiarray.scalar
+  - *id001
+  - !!binary |
+    AAAAAACAOMA=
+  Br: !!python/object/apply:numpy.core.multiarray.scalar
+  - *id001
+  - !!binary |
+    MzMzMzMzyz8=
+  Btheta: !!python/object/apply:numpy.core.multiarray.scalar
+  - *id001
+  - !!binary |
+    AAAAAAAAKUA=
+  stage_x: 15.8
+  stage_y: 23.3
+Pulse:
+  aom2_delay: 1.0e-06
+  aom_delay: 8.0e-07
+  awg_offset: -2.0e-07
+  mw_delay: 5.2e-08
+  orangeread: 1
+  pulsewidth: 1.0e-07
+  reps: 1.0
+  tau: 1.0e-06
+  time_dark: 0.044
+  time_det: 0.04
+  time_green: 0.042
+  time_initial: 0.004
+  time_sep: 0.004
+Sweep:
+  chxbx_2desr: false
+  var1_delay: 0.0
+  var1_name: itr
+  var1_numdivs: 4000
+  var1_start: 10.0
+  var1_start_unit: '-'
+  var1_stop: 100.0
+  var1_stop_unit: '-'
+  var2_delay: 0.0
+  var2_name: Bphi
+  var2_numdivs: 0
+  var2_start: 0.0
+  var2_start_unit: '-'
+  var2_stop: 0.0
+  var2_stop_unit: '-'
+sweep_var:
+  ? ''
+  : delay: 0.0
+    numdivs: 75
+    start: 700.0
+    start_unit: M
+    stop: 1000.0
+    stop_unit: M
+  Bphi:
+    delay: 0.0
+    numdivs: 0
+    start: 0.0
+    start_unit: '-'
+    stop: 0.0
+    stop_unit: '-'
+  aom2_delay:
+    delay: 0.0
+    numdivs: 10
+    start: 0.001
+    start_unit: m
+    stop: 5.001
+    stop_unit: m
+  inv:
+    delay: 0.0
+    numdivs: 1
+    start: 0.0
+    start_unit: '-'
+    stop: 1.0
+    stop_unit: '-'
+  itr:
+    delay: 0.0
+    numdivs: 4000
+    start: 10.0
+    start_unit: '-'
+    stop: 100.0
+    stop_unit: '-'
+  time_det:
+    delay: 0.0
+    numdivs: 40
+    start: 0.5
+    start_unit: m
+    stop: 10.0
+    stop_unit: m
+  time_green:
+    delay: 0.0
+    numdivs: 100
+    start: 1.2
+    start_unit: m
+    stop: 6.0
+    stop_unit: m

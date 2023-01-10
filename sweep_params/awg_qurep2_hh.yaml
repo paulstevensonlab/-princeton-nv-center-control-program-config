@@ -1,0 +1,86 @@
+Confocal:
+  xpos: 3.209
+  ypos: -2.845
+  zpos: 4.545
+Instrument:
+  mw1freq: -1.0
+  mw1pow: -1.0
+Manual:
+  Bphi: 187.3
+  Br: 0.18
+  Btheta: 7.0
+  stage_x: 30.95
+  stage_y: 26.62
+Pulse:
+  deer_vi: 0.0
+  deer_vq: !!python/object/apply:numpy.core.multiarray.scalar
+  - &id001 !!python/object/apply:numpy.dtype
+    args:
+    - f8
+    - 0
+    - 1
+    state: !!python/tuple
+    - 3
+    - <
+    - null
+    - null
+    - null
+    - -1
+    - -1
+    - 0
+  - !!binary |
+    AAAAAADAYkA=
+  deer_x90vi: 150.0
+  deer_x90vq: 0.0
+  deer_y90vi: -150.0
+  deer_y90vq: 0.0
+  deerpulsewidth: !!python/object/apply:numpy.core.multiarray.scalar
+  - *id001
+  - !!binary |
+    VOQQcXMq2T4=
+  dt: 5.2e-08
+  inv: 1
+  pulsewidth: !!python/object/apply:numpy.core.multiarray.scalar
+  - *id001
+  - !!binary |
+    je21oPfG8D4=
+  reps: 2000000.0
+  vi: 0.0
+  vq: 300.0
+  x90pw: 4.8e-08
+  x90vi: 300.0
+  x90vq: 0.0
+  y90pw: 4.8e-08
+  y90vi: 300.0
+  y90vq: 0.0
+Sweep:
+  chxbx_2desr: false
+  var1_delay: 0.0
+  var1_name: ''
+  var1_numdivs: 36
+  var1_start: 932.0
+  var1_start_unit: M
+  var1_stop: 950.0
+  var1_stop_unit: M
+  var2_delay: 1.0
+  var2_name: itr
+  var2_numdivs: 4
+  var2_start: 0.0
+  var2_start_unit: '-'
+  var2_stop: 1.0
+  var2_stop_unit: '-'
+sweep_var:
+  ? ''
+  : delay: 0.0
+    numdivs: 36
+    start: 932.0
+    start_unit: M
+    stop: 950.0
+    stop_unit: M
+  itr:
+    delay: 1.0
+    numdivs: 4
+    start: 0.0
+    start_unit: '-'
+    stop: 1.0
+    stop_unit: '-'
