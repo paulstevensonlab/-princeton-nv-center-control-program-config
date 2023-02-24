@@ -1,18 +1,18 @@
 Confocal:
-  nvnum: 0
-  xpos: 1.086
-  ypos: 3.189
-  zpos: 5.615
+  nvnum: 19
+  xpos: 4.31
+  ypos: -6.889
+  zpos: 3.692
 Instrument:
-  mw1freq: 2865000000.0
-  mw1pow: -16.0
-  voa532: 1.0
+  mw1freq: 2551700000.0
+  mw1pow: -9.0
+  voa532: 2.0
 Manual:
   Bphi: 0.0
-  Br: 3.5
-  Btheta: -2.5
+  Br: 0.0
+  Btheta: 0.0
   stage_x: 9.415
-  stage_y: 13.55
+  stage_y: 13.58
 Pulse:
   aom_delay: 7.7e-07
   aom_delay2: 7.4e-07
@@ -20,7 +20,7 @@ Pulse:
   awg_postedge: 8.0e-09
   awg_preedge: 8.0e-09
   mw_delay: 6.0e-08
-  pulsewidth: 2.0000000000000003e-06
+  pulsewidth: 1.0000000000000002e-06
   reps: 10000.0
   tau: 0.0
   time_dark: 2.0e-06
@@ -34,7 +34,7 @@ Sweep:
   var1_numdivs: 100
   var1_start: 0.0
   var1_start_unit: n
-  var1_stop: 2000.0
+  var1_stop: 1000.0
   var1_stop_unit: n
   var2_delay: 0.0
   var2_name: Bphi
@@ -56,5 +56,5 @@ sweep_var:
     numdivs: 100
     start: 0.0
     start_unit: n
-    stop: 2000.0
+    stop: 1000.0
     stop_unit: n

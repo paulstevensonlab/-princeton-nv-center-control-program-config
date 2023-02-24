@@ -29,7 +29,7 @@ mw_delay: 60e-9 #12e-9
 time_dark: 2000e-9 #2000e-9
 time_green: 3800e-9
 time_det: 300e-9
-time_sep: 2000e-9
+time_sep: 2600e-9
 
 
 # aom_delay: 800e-9
