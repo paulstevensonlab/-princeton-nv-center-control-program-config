@@ -1,69 +1,39 @@
 Confocal:
-  nvnum: 37
-  xpos: !!python/object/apply:numpy.core.multiarray.scalar
-  - &id001 !!python/object/apply:numpy.dtype
-    args:
-    - f8
-    - 0
-    - 1
-    state: !!python/tuple
-    - 3
-    - <
-    - null
-    - null
-    - null
-    - -1
-    - -1
-    - 0
-  - !!binary |
-    nMQgsHJo4b8=
-  ypos: !!python/object/apply:numpy.core.multiarray.scalar
-  - *id001
-  - !!binary |
-    EFg5tMh2zj8=
-  zpos: !!python/object/apply:numpy.core.multiarray.scalar
-  - *id001
-  - !!binary |
-    0SLb+X7qEkA=
+  nvnum: 0
+  xpos: -20.803
+  ypos: -14.419
+  zpos: 5.977
 Instrument:
-  mw1freq: 2161990000.0
-  mw1pow: 12.2
-  mw2freq: 3581898000.0
-  mw2pow: -2.0
+  mw1freq: 2820000000.0
+  mw1pow: -20.0
+  mw2freq: 13200000.0
+  mw2pow: -30.0
+  voa532: 0.0
 Manual:
-  Bphi: !!python/object/apply:numpy.core.multiarray.scalar
-  - *id001
-  - !!binary |
-    AAAAAAAAGsA=
-  Br: !!python/object/apply:numpy.core.multiarray.scalar
-  - *id001
-  - !!binary |
-    ZmZmZmZm5j8=
-  Btheta: !!python/object/apply:numpy.core.multiarray.scalar
-  - *id001
-  - !!binary |
-    AAAAAAAAKEA=
-  stage_x: 16.16
-  stage_y: 23.74
+  Bphi: 0.0
+  Br: 1.0
+  Btheta: 0.0
+  stage_x: 0.0
+  stage_y: 0.0
 Pulse:
   pulsewidth: 0.0001
-  reps: 5000.0
+  reps: 1000.0
   tau: 0.0001
 Sweep:
   chxbx_2desr: false
-  var1_delay: 0.5
+  var1_delay: 0.1
   var1_name: mw2freq
-  var1_numdivs: 80
-  var1_start: 3560.0
+  var1_numdivs: 100
+  var1_start: 12.0
   var1_start_unit: M
-  var1_stop: 3600.0
+  var1_stop: 16.0
   var1_stop_unit: M
   var2_delay: 0.0
-  var2_name: Bphi
-  var2_numdivs: 4
-  var2_start: 182.0
+  var2_name: itr
+  var2_numdivs: 50
+  var2_start: 0.0
   var2_start_unit: '-'
-  var2_stop: 178.0
+  var2_stop: 1.0
   var2_stop_unit: '-'
 sweep_var:
   Bphi:
@@ -102,11 +72,11 @@ sweep_var:
     stop: 200.0
     stop_unit: n
   mw2freq:
-    delay: 0.5
-    numdivs: 80
-    start: 3560.0
+    delay: 0.1
+    numdivs: 100
+    start: 12.0
     start_unit: M
-    stop: 3600.0
+    stop: 16.0
     stop_unit: M
   nvnum:
     delay: 0.0
