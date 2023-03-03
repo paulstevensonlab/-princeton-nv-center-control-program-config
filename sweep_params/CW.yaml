@@ -1,38 +1,52 @@
 Confocal:
-  nvnum: 0
-  xpos: 10.784
-  ypos: -9.868
-  zpos: 9.599
+  nvnum: 26
+  xpos: -16.389
+  ypos: -24.955
+  zpos: 6.527
 Instrument:
-  mw1freq: 2802000000.0
-  mw1pow: -23.0
-  mw2freq: 2910000000.0
-  mw2pow: '20.000
-
-    '
-  voa532: 0.0
+  mw1freq: 2846000000.0
+  mw1pow: -20.0
+  mw2freq: 4000000.0
+  mw2pow: -17.0
+  voa532: !!python/object/apply:numpy.core.multiarray.scalar
+  - !!python/object/apply:numpy.dtype
+    args:
+    - f8
+    - 0
+    - 1
+    state: !!python/tuple
+    - 3
+    - <
+    - null
+    - null
+    - null
+    - -1
+    - -1
+    - 0
+  - !!binary |
+    AAAAAAAAAAA=
 Manual:
   Bphi: 0.0
-  Br: 0.0
+  Br: 1.0
   Btheta: 0.0
-  stage_x: 9.415
-  stage_y: 13.58
+  stage_x: 0.0
+  stage_y: 0.0
 Pulse: {}
 Sweep:
-  chxbx_2desr: true
-  var1_delay: 0.1
-  var1_name: mw2freq
-  var1_numdivs: 80
-  var1_start: 2830.0
-  var1_start_unit: M
-  var1_stop: 2910.0
-  var1_stop_unit: M
+  chxbx_2desr: false
+  var1_delay: 0.01
+  var1_name: voa532
+  var1_numdivs: 100
+  var1_start: 5.0
+  var1_start_unit: '-'
+  var1_stop: 0.0
+  var1_stop_unit: '-'
   var2_delay: 0.0
   var2_name: itr
   var2_numdivs: 10
   var2_start: 0.0
   var2_start_unit: '-'
-  var2_stop: 1.0
+  var2_stop: 0.0
   var2_stop_unit: '-'
 sweep_var:
   itr:
@@ -40,7 +54,7 @@ sweep_var:
     numdivs: 10
     start: 0.0
     start_unit: '-'
-    stop: 1.0
+    stop: 0.0
     stop_unit: '-'
   mw1freq:
     delay: 0.1
@@ -56,6 +70,13 @@ sweep_var:
     start_unit: M
     stop: 2910.0
     stop_unit: M
+  voa532:
+    delay: 0.01
+    numdivs: 100
+    start: 5.0
+    start_unit: '-'
+    stop: 0.0
+    stop_unit: '-'
   xpos:
     delay: 0.5
     numdivs: 50

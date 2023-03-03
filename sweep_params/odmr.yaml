@@ -1,14 +1,14 @@
 Confocal:
-  nvnum: 2
-  xpos: -17.923
-  ypos: -23.784
-  zpos: 4.787
+  nvnum: 26
+  xpos: -17.186
+  ypos: -25.28
+  zpos: 5.82
 Instrument:
-  mw1freq: 2911000000.0
+  mw1freq: 2840000000.0
   mw1pow: -20.0
-  mw2freq: 8000000.0
+  mw2freq: 13000000.0
   mw2pow: -17.0
-  voa532: 1.9
+  voa532: 2.2
 Manual:
   Bphi: 0.0
   Br: 1.0
@@ -30,8 +30,8 @@ Sweep:
   var1_stop_unit: M
   var2_delay: 0.0
   var2_name: mw2freq
-  var2_numdivs: 8
-  var2_start: 8.0
+  var2_numdivs: 14
+  var2_start: 2.0
   var2_start_unit: M
   var2_stop: 16.0
   var2_stop_unit: M
@@ -52,7 +52,7 @@ sweep_var:
     stop_unit: '-'
   itr:
     delay: 0.0
-    numdivs: 20
+    numdivs: 10
     start: 0.0
     start_unit: '-'
     stop: 0.0
@@ -73,8 +73,8 @@ sweep_var:
     stop_unit: '-'
   mw2freq:
     delay: 0.0
-    numdivs: 8
-    start: 8.0
+    numdivs: 14
+    start: 2.0
     start_unit: M
     stop: 16.0
     stop_unit: M
