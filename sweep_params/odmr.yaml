@@ -1,13 +1,13 @@
 Confocal:
-  nvnum: 31
-  xpos: -16.914
-  ypos: -23.358
-  zpos: 3.846
+  nvnum: 32
+  xpos: -15.004
+  ypos: -22.515
+  zpos: 2.955
 Instrument:
-  mw1freq: 2920000000.0
+  mw1freq: 2851000000.0
   mw1pow: -20.0
-  mw2freq: 15000000.0
-  mw2pow: 5000000.0
+  mw2freq: 7000000.0
+  mw2pow: -17.0
   voa532: 2.2
 Manual:
   Bphi: 0.0
@@ -17,13 +17,13 @@ Manual:
   stage_y: 0.0
 Pulse:
   pulsewidth: 1.0e-05
-  reps: 10000.0
+  reps: 4000.0
   tau: 2.0e-05
 Sweep:
   chxbx_2desr: true
   var1_delay: 0.0
   var1_name: mw1freq
-  var1_numdivs: 100
+  var1_numdivs: 200
   var1_start: 2820.0
   var1_start_unit: M
   var1_stop: 2920.0
@@ -31,9 +31,9 @@ Sweep:
   var2_delay: 0.0
   var2_name: mw2freq
   var2_numdivs: 14
-  var2_start: 16.0
+  var2_start: 2.0
   var2_start_unit: M
-  var2_stop: 2.0
+  var2_stop: 16.0
   var2_stop_unit: M
 sweep_var:
   Bphi:
@@ -52,14 +52,14 @@ sweep_var:
     stop_unit: '-'
   itr:
     delay: 0.0
-    numdivs: 10
+    numdivs: 40
     start: 0.0
     start_unit: '-'
     stop: 0.0
     stop_unit: '-'
   mw1freq:
     delay: 0.0
-    numdivs: 100
+    numdivs: 200
     start: 2820.0
     start_unit: M
     stop: 2920.0
@@ -74,9 +74,9 @@ sweep_var:
   mw2freq:
     delay: 0.0
     numdivs: 14
-    start: 16.0
+    start: 2.0
     start_unit: M
-    stop: 2.0
+    stop: 16.0
     stop_unit: M
   mw2pow:
     delay: 0.0

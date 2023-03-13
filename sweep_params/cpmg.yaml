@@ -1,18 +1,20 @@
 Confocal:
-  nvnum: 41
-  xpos: -10.014
-  ypos: 7.491
-  zpos: 6.706
+  nvnum: 35
+  xpos: -27.305
+  ypos: -20.046
+  zpos: 4.745
 Instrument:
-  mw1freq: 2839124000.0
-  mw1pow: 4.85
-  voa532: 2.1
+  mw1freq: 2864000000.0
+  mw1pow: 0.0
+  mw2freq: 16000000.0
+  mw2pow: -17.0
+  voa532: 1.9
 Manual:
   Bphi: 0.0
   Br: 1.0
   Btheta: 0.0
-  stage_x: 9.415
-  stage_y: 13.58
+  stage_x: 0.0
+  stage_y: 0.0
 Pulse:
   aom_delay: 7.6e-07
   aom_delay2: 7.4e-07
@@ -23,23 +25,23 @@ Pulse:
   inv: 0
   mw_delay: 6.0e-08
   n: 1.0
-  pulsewidth_pi: 1.0e-07
-  pulsewidth_pi2: 5.0e-08
-  pulsewidth_pi32: 1.5e-07
-  reps: 30000.0
-  tau: 1.9999999999999998e-05
+  pulsewidth_pi: 4.8e-08
+  pulsewidth_pi2: 2.4e-08
+  pulsewidth_pi32: 7.2e-08
+  reps: 300000.0
+  tau: 4.9999999999999996e-06
   time_dark: 2.0e-06
   time_det: 3.0e-07
   time_green: 3.8e-06
   time_sep: 2.0e-06
 Sweep:
-  chxbx_2desr: true
+  chxbx_2desr: false
   var1_delay: 0.0
   var1_name: tau
-  var1_numdivs: 200
-  var1_start: 0.2
+  var1_numdivs: 50
+  var1_start: 0.1
   var1_start_unit: u
-  var1_stop: 20.0
+  var1_stop: 5.0
   var1_stop_unit: u
   var2_delay: 0.0
   var2_name: itr
@@ -93,8 +95,8 @@ sweep_var:
     stop_unit: u
   tau:
     delay: 0.0
-    numdivs: 200
-    start: 0.2
+    numdivs: 50
+    start: 0.1
     start_unit: u
-    stop: 20.0
+    stop: 5.0
     stop_unit: u
