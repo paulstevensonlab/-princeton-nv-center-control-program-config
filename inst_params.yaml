@@ -92,7 +92,7 @@ instruments:
     # func_onoff: output
     # func_iq: iqmod
   mw2:
-    addr: TCPIP0::129.10.129.168::1234::SOCKET
+    addr: ASRL7::INSTR
     mfg: RohdeSchwarz
     model: SML03
     set_output: False
