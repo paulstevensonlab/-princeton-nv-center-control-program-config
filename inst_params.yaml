@@ -10,7 +10,7 @@ instruments:
     model: DAQmxAnalogOutput
     set_voltage: 9.84
   voa532:
-    addr: {dev: /Dev1/ao3}
+    addr: {dev: /Dev1/ao3, minval: 0, maxval: 5}
     mfg: DAQmxAnalogOutput
     model: DAQmxAnalogOutput
   # voa637:
