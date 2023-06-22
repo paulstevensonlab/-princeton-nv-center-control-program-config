@@ -13,6 +13,11 @@ instruments:
     addr: {dev: /Dev1/ao3, minval: 0, maxval: 5}
     mfg: DAQmxAnalogOutput
     model: DAQmxAnalogOutput
+  # coil:
+    # addr: ASRL3::INSTR
+    # mfg: Siglent
+    # model: KA3005P
+    # set_current: 0.7
   # voa637:
     # addr: {dev: /Dev1/ao5}
     # mfg: DAQmxAnalogOutput
@@ -62,11 +67,11 @@ instruments:
     #set_output: False
     #func_onoff: output
     #func_iq: mod_vector
-
   mw1:
-    addr: TCPIP::129.10.128.90::INSTR
+    addr: ASRL4::INSTR
+    # addr: TCPIP0::129.10.128.230::23::SOCKET
     mfg: RohdeSchwarz
-    model: SMATE200A
+    model: SMIQ
     set_output: False
     func_onoff: output
     func_iq: iqmod
@@ -91,13 +96,13 @@ instruments:
     # set_output: False
     # func_onoff: output
     # func_iq: iqmod
-  mw2:
-    addr: ASRL7::INSTR
-    mfg: RohdeSchwarz
-    model: SML03
-    set_output: False
-    func_onoff: output
-    func_iq: iqmod
+  # mw1:
+    # addr: ASRL7::INSTR
+    # mfg: RohdeSchwarz
+    # model: SML03
+    # set_output: False
+    # func_onoff: output
+    # func_iq: iqmod
   # awg1:
     # addr: GPIB0::10::INSTR
     # set_alias: awg1
