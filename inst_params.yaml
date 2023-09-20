@@ -13,12 +13,11 @@ instruments:
     addr: {dev: /Dev1/ao3, minval: 0, maxval: 5}
     mfg: DAQmxAnalogOutput
     model: DAQmxAnalogOutput
-  # coil:
-    # addr: ASRL3::INSTR
-    # mfg: Siglent
-    # model: KA3005P
-    # set_current: 0.7
-  # voa637:
+  magnetmotor:
+    addr: 129.10.130.4
+    mfg: phidgets
+    model: RemoteActuator
+  # # voa637:
     # addr: {dev: /Dev1/ao5}
     # mfg: DAQmxAnalogOutput
     # model: DAQmxAnalogOutput
