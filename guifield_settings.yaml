@@ -16,11 +16,11 @@ dbl_confocal_y_stop:
   setSingleStep: 0.1
 dbl_confocal_z_start:
   setDecimals: 2
-  setRange: [0, 13]
+  setRange: [0, 20]
   setSingleStep: 0.1
 dbl_confocal_z_stop:
   setDecimals: 2
-  setRange: [0, 13]
+  setRange: [0, 20]
   setSingleStep: 0.1
 int_confocal_x_numdivs:
   setRange: [0, 2000]
@@ -56,7 +56,7 @@ dbl_tracker_ypos:
   setSingleStep: 0.01
 dbl_tracker_zpos:
   setDecimals: 3
-  setRange: [0, 13]
+  setRange: [0, 20]
   setSingleStep: 0.01
 dbl_tracker_xystep:
   setDecimals: 2
