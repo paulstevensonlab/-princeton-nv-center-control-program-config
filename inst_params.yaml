@@ -88,9 +88,9 @@ instruments:
     func_onoff: output
     func_iq: iqmod
   coilMagnet:
-    addr: ASRL5::INSTR
+    addr: ASRL6::INSTR
     mfg: Siglent
-    model: KA3005P
+    model: BK1688B
   # awg1:
     # addr: GPIB0::10::INSTR
     # set_alias: awg1
