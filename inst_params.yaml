@@ -87,12 +87,14 @@ instruments:
     set_output: False
     func_onoff: output
     func_iq: iqmod
-  #coilMagnet:
-    #addr: ASRL8::INSTR
-    #addr: ASRL6::INSTR
-    #mfg: Siglent
-    #model: KWR102
-    #model: BK1688B
+  coilMagnet:
+    addr: ASRL8::INSTR
+    mfg: Siglent
+    model: KWR102
+   # coilMagnet:
+    # addr: ASRL6::INSTR
+    # mfg: Siglent
+    # model: BK1688B
   # awg1:
     # addr: GPIB0::10::INSTR
     # set_alias: awg1
