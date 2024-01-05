@@ -1,29 +1,50 @@
 Confocal:
-  nvnum: 0
-  xpos: 3.326
-  ypos: 1.883
-  zpos: 12.0
+  nvnum: 33
+  xpos: 4.206
+  ypos: -15.397
+  zpos: 4.506
 Instrument:
-  mw1enabled: true
-  mw1freq: 2100000000.0
-  mw1pow: -12.0
+  coilMagnetCurrent: 0
+  coilMagnetVolt: 0
+  magnetmotor: 0.00641
+  mw1enabled: false
+  mw1freq: 2839000000.0
+  mw1pow: -21.0
   mw2enabled: false
-  voa532: 0.0
+  mw2freq: 10000000.0
+  mw2pow: -17.0
+  voa532: !!python/object/apply:numpy.core.multiarray.scalar
+  - !!python/object/apply:numpy.dtype
+    args:
+    - f8
+    - 0
+    - 1
+    state: !!python/tuple
+    - 3
+    - <
+    - null
+    - null
+    - null
+    - -1
+    - -1
+    - 0
+  - !!binary |
+    AAAAAAAAFEA=
 Manual:
   Bphi: 0.0
-  Br: 6.0
-  Btheta: -1.0
-  stage_x: 7.05
-  stage_y: 19.33
+  Br: 0.0
+  Btheta: 0.0
+  stage_x: 6.685
+  stage_y: 19.41
 Pulse: {}
 Sweep:
   chxbx_2desr: false
-  var1_delay: 0.1
-  var1_name: zpos
-  var1_numdivs: 60
+  var1_delay: 0.01
+  var1_name: voa532
+  var1_numdivs: 100
   var1_start: 0.0
   var1_start_unit: '-'
-  var1_stop: 12.0
+  var1_stop: 5.0
   var1_stop_unit: '-'
   var2_delay: 0.0
   var2_name: itr
@@ -57,9 +78,9 @@ sweep_var:
   voa532:
     delay: 0.01
     numdivs: 100
-    start: 5.0
+    start: 0.0
     start_unit: '-'
-    stop: 0.0
+    stop: 5.0
     stop_unit: '-'
   xpos:
     delay: 0.1
