@@ -59,6 +59,10 @@ instruments:
     set_output: False
     func_onoff: output
     func_iq: iqmod
+  remoteinfo:
+    addr: localhost
+    mfg: remotecontrol
+    model: rpyccontrol
   # mw1:
   #   addr: SG384_1
   #   mfg: SRS

@@ -1,170 +1,57 @@
 Confocal:
-  xpos: !!python/object/apply:numpy.core.multiarray.scalar
-  - !!python/object/apply:numpy.dtype
-    args:
-    - f8
-    - 0
-    - 1
-    state: !!python/tuple
-    - 3
-    - <
-    - null
-    - null
-    - null
-    - -1
-    - -1
-    - 0
-  - !!binary |
-    9ihcj8L1yL8=
-  ypos: !!python/object/apply:numpy.core.multiarray.scalar
-  - !!python/object/apply:numpy.dtype
-    args:
-    - f8
-    - 0
-    - 1
-    state: !!python/tuple
-    - 3
-    - <
-    - null
-    - null
-    - null
-    - -1
-    - -1
-    - 0
-  - !!binary |
-    tvP91Hjp3j8=
-  zpos: !!python/object/apply:numpy.core.multiarray.scalar
-  - !!python/object/apply:numpy.dtype
-    args:
-    - f8
-    - 0
-    - 1
-    state: !!python/tuple
-    - 3
-    - <
-    - null
-    - null
-    - null
-    - -1
-    - -1
-    - 0
-  - !!binary |
-    ZDvfT42XGEA=
+  nvnum: 0
+  xpos: -2.108
+  ypos: 9.978
+  zpos: 3.639
 Instrument:
-  mw1freq: 1970081420.0
-  mw1pow: -15.0
-  mw2freq: 900000000.0
-  mw2pow: 3.0
+  magnetmotor: 0.4982
+  mw1enabled: true
+  mw1freq: 2858000000.0
+  mw1pow: 3.0
+  mw2enabled: true
+  mw2freq: 2800000000.0
+  mw2pow: 9.0
+  voa532: 1.9
 Manual:
-  Bphi: 193.5
-  Br: 0.18
-  Btheta: 2.5
-  stage_x: 30.95
-  stage_y: 26.62
+  Bphi: -4.0
+  Br: 0.0
+  Btheta: 4.0
+  stage_x: 6.685
+  stage_y: 19.41
 Pulse:
-  deerpulsewidth: !!python/object/apply:numpy.core.multiarray.scalar
-  - !!python/object/apply:numpy.dtype
-    args:
-    - f8
-    - 0
-    - 1
-    state: !!python/tuple
-    - 3
-    - <
-    - null
-    - null
-    - null
-    - -1
-    - -1
-    - 0
-  - !!binary |
-    Ooww4o55dT4=
+  aom_delay: 7.0e-07
+  aom_delay2: 7.4e-07
+  awg_offset: -2.1e-07
+  awg_postedge: 8.0e-09
+  awg_preedge: 8.0e-09
+  deerpulsewidth: 4.0e-07
   dt: 0.0
   inv: 1
-  pulsewidth_pi: !!python/object/apply:numpy.core.multiarray.scalar
-  - !!python/object/apply:numpy.dtype
-    args:
-    - f8
-    - 0
-    - 1
-    state: !!python/tuple
-    - 3
-    - <
-    - null
-    - null
-    - null
-    - -1
-    - -1
-    - 0
-  - !!binary |
-    Ooww4o55dT4=
-  pulsewidth_pi2: !!python/object/apply:numpy.core.multiarray.scalar
-  - !!python/object/apply:numpy.dtype
-    args:
-    - f8
-    - 0
-    - 1
-    state: !!python/tuple
-    - 3
-    - <
-    - null
-    - null
-    - null
-    - -1
-    - -1
-    - 0
-  - !!binary |
-    Ooww4o55ZT4=
-  pulsewidth_pi32: !!python/object/apply:numpy.core.multiarray.scalar
-  - !!python/object/apply:numpy.dtype
-    args:
-    - f8
-    - 0
-    - 1
-    state: !!python/tuple
-    - 3
-    - <
-    - null
-    - null
-    - null
-    - -1
-    - -1
-    - 0
-  - !!binary |
-    K2mkKSsbgD4=
-  reps: 500000.0
-  tau: !!python/object/apply:numpy.core.multiarray.scalar
-  - !!python/object/apply:numpy.dtype
-    args:
-    - f8
-    - 0
-    - 1
-    state: !!python/tuple
-    - 3
-    - <
-    - null
-    - null
-    - null
-    - -1
-    - -1
-    - 0
-  - !!binary |
-    VOQQcXMquT4=
+  mw_delay: 6.0e-08
+  pulsewidth_pi: 7.0e-08
+  pulsewidth_pi2: 3.5e-08
+  pulsewidth_pi32: 1.05e-07
+  reps: 200000.0
+  tau: 2.0e-06
+  time_dark: 1.0e-06
+  time_det: 3.0e-07
+  time_green: 4.0e-06
+  time_sep: 3.0e-06
 Sweep:
-  chxbx_2desr: false
+  chxbx_2desr: true
   var1_delay: 0.0
-  var1_name: inv
-  var1_numdivs: 1
-  var1_start: 0.0
-  var1_start_unit: '-'
-  var1_stop: 1.0
-  var1_stop_unit: '-'
+  var1_name: mw2freq
+  var1_numdivs: 100
+  var1_start: 1800.0
+  var1_start_unit: M
+  var1_stop: 2800.0
+  var1_stop_unit: M
   var2_delay: 0.0
-  var2_name: ''
-  var2_numdivs: 75
-  var2_start: 700.0
+  var2_name: itr
+  var2_numdivs: 20
+  var2_start: 0.0
   var2_start_unit: M
-  var2_stop: 1000.0
+  var2_stop: 1.0
   var2_stop_unit: M
 sweep_var:
   ? ''
@@ -174,6 +61,20 @@ sweep_var:
     start_unit: M
     stop: 1000.0
     stop_unit: M
+  awg_preedge:
+    delay: 0.0
+    numdivs: 20
+    start: 50.0
+    start_unit: M
+    stop: 400.0
+    stop_unit: M
+  deerpulsewidth:
+    delay: 0.0
+    numdivs: 30
+    start: 50.0
+    start_unit: n
+    stop: 1400.0
+    stop_unit: n
   inv:
     delay: 0.0
     numdivs: 1
@@ -181,3 +82,31 @@ sweep_var:
     start_unit: '-'
     stop: 1.0
     stop_unit: '-'
+  itr:
+    delay: 0.0
+    numdivs: 20
+    start: 0.0
+    start_unit: M
+    stop: 1.0
+    stop_unit: M
+  mw2freq:
+    delay: 0.0
+    numdivs: 100
+    start: 1800.0
+    start_unit: M
+    stop: 2800.0
+    stop_unit: M
+  mw2pow:
+    delay: 0.0
+    numdivs: 10
+    start: 0.0
+    start_unit: '-'
+    stop: -10.0
+    stop_unit: '-'
+  tau:
+    delay: 0.0
+    numdivs: 30
+    start: 0.5
+    start_unit: u
+    stop: 5.0
+    stop_unit: u
