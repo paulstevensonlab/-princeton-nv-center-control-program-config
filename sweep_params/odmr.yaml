@@ -1,21 +1,21 @@
 Confocal:
-  nvnum: 1
-  xpos: 20.411
-  ypos: -30.101
-  zpos: 14.83
+  nvnum: 7
+  xpos: -22.915
+  ypos: 17.029
+  zpos: 3.806
 Instrument:
-  magnetmotor: 0.0061
+  magnetmotor: 0.06851
   mw1enabled: true
-  mw1freq: 2680000000.0
-  mw1pow: 0.0
+  mw1freq: 2845000000.0
+  mw1pow: -10.0
   mw2enabled: false
   mw2freq: 2800000000.0
   mw2pow: 9.0
-  voa532: 1.5
+  voa532: 1.0
 Manual:
   Bphi: 0.0
   Br: 0.0
-  Btheta: -5.0
+  Btheta: 0.0
   stage_x: 0.0
   stage_y: 0.0
 Pulse:
@@ -26,7 +26,7 @@ Pulse:
   awg_preedge: 8.0e-09
   mw_delay: 6.0e-08
   pulsewidth: 0.0001
-  reps: 4000.0
+  reps: 2000.0
   tau: 0.0001
   time_dark: 2.0e-06
   time_det: 3.0e-07
@@ -36,14 +36,14 @@ Sweep:
   chxbx_2desr: true
   var1_delay: 0.0
   var1_name: mw1freq
-  var1_numdivs: 440
-  var1_start: 2680.0
+  var1_numdivs: 140
+  var1_start: 2800.0
   var1_start_unit: M
-  var1_stop: 3120.0
+  var1_stop: 2940.0
   var1_stop_unit: M
   var2_delay: 0.0
   var2_name: itr
-  var2_numdivs: 50
+  var2_numdivs: 4
   var2_start: 0.0
   var2_start_unit: '-'
   var2_stop: 0.0
@@ -86,7 +86,7 @@ sweep_var:
     stop_unit: '-'
   itr:
     delay: 0.0
-    numdivs: 50
+    numdivs: 4
     start: 0.0
     start_unit: '-'
     stop: 0.0
@@ -100,10 +100,10 @@ sweep_var:
     stop_unit: '-'
   mw1freq:
     delay: 0.0
-    numdivs: 440
-    start: 2680.0
+    numdivs: 140
+    start: 2800.0
     start_unit: M
-    stop: 3120.0
+    stop: 2940.0
     stop_unit: M
   mw1pow:
     delay: 0.0
@@ -156,10 +156,10 @@ sweep_var:
     stop_unit: '-'
   xpos:
     delay: 0.0
-    numdivs: 100
-    start: -10.0
+    numdivs: 40
+    start: -21.0
     start_unit: '-'
-    stop: 10.0
+    stop: -1.0
     stop_unit: '-'
   ypos:
     delay: 0.0
