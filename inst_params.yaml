@@ -3,7 +3,7 @@ instruments:
     mfg: DAQmxAnalogOutput
     model: GalvoPiezo
     addr: {aoX: /Dev1/ao0, aoY: /Dev1/ao1, aoZ: /Dev1/ao2}
-    set_scale: {volt_per_micron: [0.01417, 0.0159, 0.1], offset: [0.55, 1.07, 3]}  # new confocal setup 09/20
+    set_scale: {volt_per_micron: [0.01417, 0.0159, 0.05648], offset: [0.55, 1.07, 3]}  # calibrated z-piezo 2024-07-12
   ao2:
     addr: {dev: /Dev1/ao6,  minval: -10, maxval: 10}
     mfg: DAQmxAnalogOutput
