@@ -3,7 +3,7 @@ instruments:
     mfg: DAQmxAnalogOutput
     model: GalvoPiezo
     addr: {aoX: /Dev1/ao0, aoY: /Dev1/ao1, aoZ: /Dev1/ao2}
-    set_scale: {volt_per_micron: [0.01417, 0.0159, 0.05648], offset: [0.55, 1.07, 3]}  # calibrated z-piezo 2024-07-12
+    set_scale: {volt_per_micron: [0.01417, 0.0159, 0.05648], offset: [0.55, 1.07, 3]}  # calibrated z-piezo 2024-07-12, other params from 09/20
   ao2:
     addr: {dev: /Dev1/ao6,  minval: -10, maxval: 10}
     mfg: DAQmxAnalogOutput
@@ -13,10 +13,10 @@ instruments:
     addr: {dev: /Dev1/ao3, minval: 0, maxval: 5}
     mfg: DAQmxAnalogOutput
     model: DAQmxAnalogOutput
-  magnetmotor:
-    addr: 129.10.128.110
-    mfg: phidgets
-    model: RemoteActuator
+#  magnetmotor:
+#    addr: 129.10.128.110
+#    mfg: phidgets
+#    model: RemoteActuator
   # # voa637:
     # addr: {dev: /Dev1/ao5}
     # mfg: DAQmxAnalogOutput
