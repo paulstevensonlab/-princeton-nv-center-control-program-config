@@ -1,15 +1,14 @@
 Confocal:
-  nvnum: 3
-  xpos: -18.348
-  ypos: 14.416
-  zpos: 10.636
+  nvnum: 0
+  xpos: 0.0
+  ypos: 0.0
+  zpos: 0.0
 Instrument:
-  magnetmotor: 0.01053
-  mw1freq: 2837000000.0
+  mw1freq: 1424000000.0
   mw1pow: 0.0
   mw2freq: 2800000000.0
   mw2pow: 9.0
-  voa532: 1.0
+  voa532: 0.0
 Manual:
   Bphi: 0.0
   Br: 0.0
@@ -21,11 +20,11 @@ Sweep:
   chxbx_2desr: true
   var1_delay: 0.0
   var1_name: ''
-  var1_numdivs: 260
-  var1_start: 2740.0
-  var1_start_unit: M
-  var1_stop: 3000.0
-  var1_stop_unit: M
+  var1_numdivs: 40
+  var1_start: 2.0
+  var1_start_unit: '-'
+  var1_stop: 22.0
+  var1_stop_unit: '-'
   var2_delay: 0.0
   var2_name: ''
   var2_numdivs: 40
