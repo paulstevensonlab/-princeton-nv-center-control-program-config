@@ -13,10 +13,10 @@ instruments:
     addr: {dev: /Dev1/ao3, minval: 0, maxval: 5}
     mfg: DAQmxAnalogOutput
     model: DAQmxAnalogOutput
-#  magnetmotor:
-#    addr: 129.10.128.110
-#    mfg: phidgets
-#    model: RemoteActuator
+ magnetmotor:
+   addr: 129.10.128.110
+   mfg: phidgets
+   model: RemoteActuator
   # # voa637:
     # addr: {dev: /Dev1/ao5}
     # mfg: DAQmxAnalogOutput
